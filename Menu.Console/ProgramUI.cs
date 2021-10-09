@@ -83,6 +83,7 @@ namespace Menu.Console
             double price = AskPrice();
             List<string> _ingred = AskIngredients();
             Item newItem = new Item(name, descr, _ingred, price);
+            repo.AddItemToList(newItem);
             PrintTitle();
             PrintItem(newItem);
             System.Console.Write("\n\n\n\n");
@@ -91,7 +92,6 @@ namespace Menu.Console
             bool confirm = AskYesNo();
             if (confirm)
             {
-                repo.AddItemToList(newItem);
                 System.Console.CursorVisible = false;
                 string success = "Item successfully added.";
                 System.Console.Write("\n\n");
@@ -100,6 +100,7 @@ namespace Menu.Console
             }
             else
             {
+                repo.DeleteItem(newItem.Number);
                 System.Console.CursorVisible = false;
                 string fail = "Item was not added.";
                 System.Console.Write("\n\n");
