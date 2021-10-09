@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A80B2262-7BAE-4DBB-B9E9-59957F9BA92A}</ProjectGuid>
+    <ProjectGuid>{1D80C353-81E4-4C9A-8FA3-7E1FA4282356}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Menu.Tests</RootNamespace>
-    <AssemblyName>Menu.Tests</AssemblyName>
+    <RootNamespace>KomodoOutings.Tests</RootNamespace>
+    <AssemblyName>KomodoOutings.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ItemRepoTests.cs" />
+    <Compile Include="OutingRepoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Menu.Repo\KomodoCafe.Library.csproj">
-      <Project>{a52f0f04-a61d-4e4e-b487-b3bffe9a6a6f}</Project>
-      <Name>KomodoCafe.Library</Name>
+    <ProjectReference Include="..\KomodoOutings.Library\KomodoOutings.Library.csproj">
+      <Project>{F46F709C-3D36-4F9D-976E-2A28BCF2BBA2}</Project>
+      <Name>KomodoOutings.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

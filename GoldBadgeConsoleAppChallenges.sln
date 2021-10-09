@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafe.Console", "Menu.Console\KomodoCafe.Console.csproj", "{DD29174C-AFE8-4DDC-969F-59F4500C72A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafe.Console", "KomodoCafe.Console\KomodoCafe.Console.csproj", "{DD29174C-AFE8-4DDC-969F-59F4500C72A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafe.Library", "Menu.Repo\KomodoCafe.Library.csproj", "{A52F0F04-A61D-4E4E-B487-B3BFFE9A6A6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafe.Library", "KomodoCafe.Library\KomodoCafe.Library.csproj", "{A52F0F04-A61D-4E4E-B487-B3BFFE9A6A6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafe.Tests", "Menu.Tests\KomodoCafe.Tests.csproj", "{A80B2262-7BAE-4DBB-B9E9-59957F9BA92A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafe.Tests", "KomodoCafe.Tests\KomodoCafe.Tests.csproj", "{A80B2262-7BAE-4DBB-B9E9-59957F9BA92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.Console", "..\KomodoGreeting\KomodoGreeting.Console\KomodoGreeting.Console.csproj", "{A5FFB025-352F-4388-9240-B08F2D009B83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.Console", "KomodoGreeting.Console\KomodoGreeting.Console.csproj", "{A5FFB025-352F-4388-9240-B08F2D009B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.Library", "..\KomodoGreeting\KomodoGreeting.Library\KomodoGreeting.Library.csproj", "{40E290DD-1A66-447C-B07F-19DEAF2B54DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.Library", "KomodoGreeting.Library\KomodoGreeting.Library.csproj", "{40E290DD-1A66-447C-B07F-19DEAF2B54DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreetingTests", "..\KomodoGreeting\KomodoGreetingTests\KomodoGreetingTests.csproj", "{2361DB00-DA7D-4B76-8529-BEDC8B0BC24D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreetingTests", "KomodoGreeting.Tests\KomodoGreetingTests.csproj", "{2361DB00-DA7D-4B76-8529-BEDC8B0BC24D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Console", "..\KomodoOutings\KomodoOutings.Console\KomodoOutings.Console.csproj", "{DD4736D3-5DAA-437D-BEC2-FD21DA4A3495}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Console", "KomodoOutings.Console\KomodoOutings.Console.csproj", "{DD4736D3-5DAA-437D-BEC2-FD21DA4A3495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Library", "..\KomodoOutings\KomodoOutings.Library\KomodoOutings.Library.csproj", "{F46F709C-3D36-4F9D-976E-2A28BCF2BBA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Library", "KomodoOutings.Library\KomodoOutings.Library.csproj", "{F46F709C-3D36-4F9D-976E-2A28BCF2BBA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Tests", "..\KomodoOutings\KomodoOutings.Tests\KomodoOutings.Tests.csproj", "{1D80C353-81E4-4C9A-8FA3-7E1FA4282356}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Tests", "KomodoOutings.Tests\KomodoOutings.Tests.csproj", "{1D80C353-81E4-4C9A-8FA3-7E1FA4282356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

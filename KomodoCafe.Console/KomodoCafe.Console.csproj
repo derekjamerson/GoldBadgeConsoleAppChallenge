@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DD29174C-AFE8-4DDC-969F-59F4500C72A4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KomodoCafe.Console</RootNamespace>
-    <AssemblyName>KomodoCafe.Console</AssemblyName>
+    <RootNamespace>Menu.Console</RootNamespace>
+    <AssemblyName>Menu.Console</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
