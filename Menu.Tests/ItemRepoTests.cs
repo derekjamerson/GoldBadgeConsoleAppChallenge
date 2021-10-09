@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Menu.Tests
 {
     [TestClass]
-    public class MenuRepoTests
+    public class ItemRepoTests
     {
         ItemRepo repo = new ItemRepo();
         List<string> _ingredients = new List<string>();
